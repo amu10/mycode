@@ -1,4 +1,4 @@
-package annotation.analy;
+package com.song.annotation.analy;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

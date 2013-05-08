@@ -1,4 +1,4 @@
-package annotation;
+package com.song.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,8 +7,5 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD})
-public @interface SolrField {
-	
-	String value() default "default";
-
+public @interface ExcludeField {
 }
