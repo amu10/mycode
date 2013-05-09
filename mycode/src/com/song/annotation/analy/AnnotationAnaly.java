@@ -11,15 +11,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.beanutils.MethodUtils;
-import org.apache.commons.lang.StringUtils;
-import org.apache.solr.common.SolrInputDocument;
-
-import com.dinfo.tengxun.solr.annotation.ExcludeField;
-import com.dinfo.tengxun.solr.annotation.SolrClass;
-import com.dinfo.tengxun.solr.annotation.SolrField;
-import com.dinfo.tengxun.solr.bean.WeiSolr;
-import com.dinfo.tengxun.util.FunctionUtil;
 
 public class AnnotationAnaly {
 	
